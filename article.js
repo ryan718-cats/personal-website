@@ -1,7 +1,7 @@
 const posts = {
-  "art-of-yolo": "posts/art-of-yolo.txt?v=15",
-  "gen-chem-nightmare": "posts/gen-chem-nightmare.txt?v=15",
-  "science-fair": "posts/science-fair.txt?v=15",
+  "art-of-yolo": "posts/art-of-yolo.txt?v=16",
+  "gen-chem-nightmare": "posts/gen-chem-nightmare.txt?v=16",
+  "science-fair": "posts/science-fair.txt?v=16",
 };
 
 const titleEl = document.getElementById("article-title");
