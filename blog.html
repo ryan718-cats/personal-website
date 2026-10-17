@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Ryan Cho</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='16,3 19.2,12 29,12.2 21.2,17.8 23.8,27 16,22 8.2,27 10.8,17.8 3,12.2 12.8,12' fill='%23f3d56a' stroke='%236a5346' stroke-width='1.6' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=12">
+</head>
+<body>
+  <div class="sky">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <main class="page">
+      <section class="window window-page" aria-labelledby="page-title">
+        <header class="titlebar bar-lilac">
+          <div class="dots">
+            <button class="dot dot-r mac-close" type="button" aria-label="Close blog window"></button>
+            <button class="dot dot-y mac-minimize" type="button" aria-label="Minimize blog window"></button>
+            <button class="dot dot-g mac-maximize" type="button" aria-label="Maximize blog window"></button>
+          </div>
+          <h2 id="page-title">blog.txt</h2>
+        </header>
+        <div class="window-body">
+          <div class="page-body">
+            <a class="back-link" href="index.html">← Ryan's desktop</a>
+            <h1>Blog</h1>
+            <p class="lede">Notes, questions, and the occasional longer thought.</p>
+            <ul class="post-list">
+              <li>
+                <a href="article.html?post=art-of-yolo" target="_blank" rel="noopener">
+                  <span><time>October 2026</time><h2>The Art of YOLO</h2><p>On letting go, trying new things, and choosing a life that feels like mine.</p></span><b>↗</b>
+                </a>
+              </li>
+              <li>
+                <a href="article.html?post=gen-chem-nightmare" target="_blank" rel="noopener">
+                  <span><time>February 2026</time><h2>Reflection on my Gen Chem Nightmare</h2><p>What one brutal thermodynamics exam taught me about preparing better.</p></span><b>↗</b>
+              </li>
+              <li>
+                <a href="article.html?post=science-fair" target="_blank" rel="noopener">
+                  <span><time>December 2024</time><h2>The High School Science Fair Experience</h2><p>What JSHS taught me about competition, community, and enjoying the experience.</p></span><b>↗</b>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="taskbar">
+      <div class="task-left">
+        <a class="home-btn" href="index.html" aria-label="Home">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <path d="M4 11.5 L12 5 l8 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+            <path d="M7 10.5 V19 h10 v-8.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <span class="sep" aria-hidden="true"></span>
+        <span class="task-label">Ryan's desktop</span>
+      </div>
+      <div class="task-right">
+        <time id="clock">Sat Apr 26&nbsp;&nbsp;10:24 AM</time>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js?v=11"></script>
+</body>
+</html>
