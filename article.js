@@ -1,5 +1,4 @@
 const posts = {
-  "art-of-yolo": "posts/art-of-yolo.txt?v=18",
   "gen-chem-nightmare": "posts/gen-chem-nightmare.txt?v=18",
   "science-fair": "posts/science-fair.txt?v=18",
 };
